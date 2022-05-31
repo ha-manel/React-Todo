@@ -17,7 +17,7 @@ h1 {
   margin-bottom: 40px;
 }
 
-#input-div {
+#input-form {
   width: 550px;
   display: flex;
   justify-content: space-between;
@@ -41,6 +41,9 @@ h1 {
   cursor: pointer;
   font-size: 20px;
   color: #008b8b;
+  border: none;
+  background-color: transparent;
+  padding-top: 5px;
 }
 
 .todo-item {
@@ -52,6 +55,10 @@ h1 {
   padding-right: 20px;
   margin-bottom: 15px;
   box-sizing: border-box;
+}
+
+.todo-item.checked .task-text {
+  text-decoration: line-through;
 }
 
 .todo-item div {
