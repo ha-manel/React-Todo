@@ -12,6 +12,10 @@
 - React
 
 
+## Live demo
+Check out live demo [here](https://mv-react-todo.herokuapp.com/).
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
